@@ -1,0 +1,75 @@
+{
+  "name": "Slideshare Reader",
+  "fullName": "Slideshare Reader",
+  "description": "The best Slideshare reader for tablets",
+  "version": "1.0",
+  "keywords": [
+    "Slides",
+    "Badass App",
+    "Mikiane is a fuckin' coder"
+  ],
+  "contributors": [
+    {
+      "name": "Mikiane",
+      "email": "m@joshfire.com",
+      "web": "http://mikiane.com"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "Mikiane! Who else?",
+      "email": "m@joshfire.com",
+      "web": "http://mikiane.com"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "Totally Free, do what ever you want with it",
+      "url": "N/A"
+    }
+  ],
+  "joshfire": {
+    "images": {
+      "small": "",
+      "big": ""
+    },
+    "datasources": {
+      "tabs": {
+        "title": "",
+        "description": "",
+        "multiple": true
+      },
+      "news": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "devices": [
+      {
+        "devices": "tablet",
+        "startfile": "index.html",
+        "orientation": "landscape",
+        "images": "",
+        "screenshots": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "options": {
+      "schema": {
+        "embedcode": {
+          "type": "string",
+          "title": "SlideShare embed code"
+          "description": "The SlideShare embed code has to be copied here (that's it!)"
+        }
+      },
+      "form": [
+          {
+          "key": "embedcode",
+          "type": "textarea"
+        }
+      ]
+    }
+  }
+}
