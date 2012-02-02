@@ -1,7 +1,7 @@
 {
-  "name": "Slideshare Reader",
-  "fullName": "Slideshare Reader",
-  "description": "The best Slideshare reader for tablets",
+  "name": "Scribd Reader for Tablets",
+  "fullName": "Scribd Reader",
+  "description": "The best Scribd Reader for tablets",
   "version": "1.0",
   "keywords": [
     "Slides",
@@ -48,7 +48,7 @@
       {
         "devices": "tablet",
         "startfile": "index.html",
-        "orientation": "landscape",
+        "orientation": "auto",
         "images": "",
         "screenshots": [
           "",
@@ -60,8 +60,8 @@
       "schema": {
         "embedcode": {
           "type": "string",
-          "title": "SlideShare embed code",
-          "description": "The SlideShare embed code has to be copied here (that's it!)"
+          "title": "Scribd HTML5 embed code",
+          "description": "The Scribd HTML5 embed code has to be copied here (that's it!)"
         }
       },
       "form": [
