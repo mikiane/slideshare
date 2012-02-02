@@ -60,7 +60,7 @@
       "schema": {
         "embedcode": {
           "type": "string",
-          "title": "SlideShare embed code"
+          "title": "SlideShare embed code",
           "description": "The SlideShare embed code has to be copied here (that's it!)"
         }
       },
